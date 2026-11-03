@@ -1,0 +1,7 @@
+n = str(input("Digite seu nome: "))
+print(f"Seu nome todo em maiúsculo fica: {n.upper()}")
+print(f"Seu nome todo em minúsculo fica: {n.lower()}")
+sems = n.replace(" ", "")
+print(f"Seu nome sem os espaços tem essa quantidade de caracteres: {len(sems)}")
+pri = n.split()
+print(f"O primeiro nome tem essa quantidade de letras: {len(pri[0])}")
