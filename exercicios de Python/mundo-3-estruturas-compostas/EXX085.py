@@ -5,5 +5,6 @@ if aluno["media"] >= 7:
     aluno["situacao"] = "Aprovado"
 else:
     aluno["situacao"] = "Reprovado"
-print(aluno)
-#ainda falta exibir a situação do aluno de forma mais clara
+print(f"Nome: {aluno['nome']}")
+print(f"Média: {aluno['media']}")
+print(f"Situação: {aluno['situacao']}")
